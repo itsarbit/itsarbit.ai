@@ -138,6 +138,9 @@ h1 {
 }
 
 .pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.78rem;
   font-weight: 500;
   color: var(--text-muted);
@@ -146,6 +149,12 @@ h1 {
   padding: 4px 14px;
   transition: all 0.2s;
   background: var(--surface);
+}
+
+.pill-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
 }
 
 .pill:hover {
@@ -242,6 +251,11 @@ h1 {
   padding: 24px;
   background: var(--surface);
   transition: all 0.2s;
+  margin-bottom: 10px;
+}
+
+.project-card:last-child {
+  margin-bottom: 0;
 }
 
 .project-card:hover {
