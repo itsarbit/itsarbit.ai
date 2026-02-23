@@ -108,6 +108,13 @@ h1 {
   margin-bottom: 0;
 }
 
+.about .highlight {
+  color: var(--text);
+  font-weight: 500;
+  border-left: 2px solid var(--accent);
+  padding-left: 14px;
+}
+
 .inline-link {
   color: var(--text);
   border-bottom: 1px solid var(--border);
@@ -145,6 +152,23 @@ h1 {
   border-color: var(--accent-dim);
   color: var(--accent-hover);
   background: var(--accent-glow);
+}
+
+/* Philosophy */
+.philosophy {
+  margin-bottom: 48px;
+}
+
+.manifesto {
+  border-left: 2px solid var(--border);
+  padding-left: 20px;
+}
+
+.manifesto p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  font-style: italic;
 }
 
 /* Section titles */
