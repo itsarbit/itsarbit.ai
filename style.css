@@ -6,10 +6,10 @@
   --border-hover: #38383f;
   --text: #e4e4e7;
   --text-muted: #71717a;
-  --accent: #a78bfa;
-  --accent-dim: #7c3aed;
-  --accent-hover: #c4b5fd;
-  --accent-glow: rgba(167, 139, 250, 0.08);
+  --accent: #f472b6;
+  --accent-dim: #e11d48;
+  --accent-hover: #fda4af;
+  --accent-glow: rgba(244, 114, 182, 0.08);
 }
 
 * {
@@ -43,13 +43,12 @@ body {
 /* Header */
 header {
   margin-bottom: 48px;
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
 }
 
-.header-text {
-  flex: 1;
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .greeting {
@@ -78,11 +77,11 @@ h1 {
 /* Avatar */
 .avatar {
   flex-shrink: 0;
-  width: 96px;
-  height: 96px;
-  margin-top: 8px;
+  width: 36px;
+  height: 36px;
+  margin-top: 14px;
   animation: float 4s ease-in-out infinite;
-  filter: drop-shadow(0 4px 12px rgba(167, 139, 250, 0.15));
+  filter: drop-shadow(0 2px 8px rgba(244, 114, 182, 0.2));
 }
 
 @keyframes float {
@@ -312,15 +311,9 @@ footer p {
     padding: 48px 20px 32px;
   }
 
-  header {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    gap: 16px;
-  }
-
   .avatar {
-    width: 72px;
-    height: 72px;
+    width: 28px;
+    height: 28px;
   }
 
   h1 {
