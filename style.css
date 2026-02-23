@@ -51,6 +51,10 @@ header {
   gap: 12px;
 }
 
+.name-row h1 {
+  margin-bottom: 0;
+}
+
 .greeting {
   font-size: 0.9rem;
   color: var(--text-muted);
@@ -79,7 +83,6 @@ h1 {
   flex-shrink: 0;
   width: 36px;
   height: 36px;
-  margin-top: 14px;
   animation: float 4s ease-in-out infinite;
   filter: drop-shadow(0 2px 8px rgba(244, 114, 182, 0.2));
 }
