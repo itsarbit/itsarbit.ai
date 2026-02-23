@@ -203,6 +203,11 @@ h1 {
   padding: 20px 24px;
   background: var(--surface);
   transition: all 0.2s;
+  margin-bottom: 10px;
+}
+
+.writing-item:last-child {
+  margin-bottom: 0;
 }
 
 .writing-item:hover {
