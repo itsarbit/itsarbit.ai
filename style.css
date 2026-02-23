@@ -6,10 +6,10 @@
   --border-hover: #38383f;
   --text: #e4e4e7;
   --text-muted: #71717a;
-  --accent: #f472b6;
-  --accent-dim: #e11d48;
-  --accent-hover: #fda4af;
-  --accent-glow: rgba(244, 114, 182, 0.08);
+  --accent: #ea580c;
+  --accent-dim: #c2410c;
+  --accent-hover: #fb923c;
+  --accent-glow: rgba(234, 88, 12, 0.08);
 }
 
 * {
@@ -66,7 +66,7 @@ h1 {
   font-weight: 600;
   letter-spacing: -0.03em;
   margin-bottom: 8px;
-  background: linear-gradient(135deg, var(--text) 0%, #fb7185 100%);
+  background: linear-gradient(135deg, var(--text) 0%, #ea580c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -84,7 +84,7 @@ h1 {
   width: 36px;
   height: 36px;
   animation: float 4s ease-in-out infinite;
-  filter: drop-shadow(0 2px 8px rgba(244, 114, 182, 0.2));
+  filter: drop-shadow(0 2px 8px rgba(234, 88, 12, 0.2));
 }
 
 @keyframes float {
